@@ -22,10 +22,6 @@
     margin-bottom: 4px;
     color: $main-text-color;
     transition: color 0.3s ease-in-out;
-    &:hover {
-
-      color: $hover-card-name-color;
-    }
   }
 
   &__code {
@@ -102,5 +98,9 @@
   &:hover {
     transform: scale(1.2);
     transition-duration: 0.3s;
+
+    .card__name {
+        color: $hover-card-name-color;
+    }
   }
 }

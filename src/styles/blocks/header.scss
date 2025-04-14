@@ -66,17 +66,3 @@
   }
 }
 
-a.is-active {
-  color: $blue-color;
-
-  &::after {
-    content: '';
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: $blue-color;
-    border-radius: 8px;
-    width: 100%;
-  }
-}
